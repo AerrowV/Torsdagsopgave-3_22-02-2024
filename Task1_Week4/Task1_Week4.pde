@@ -8,6 +8,6 @@ void setup() {
 
 int getRandom() {
 
-  int index = (int)random(arr.length);
-  return arr[index];
+  int i = (int)random(arr.length);
+  return arr[i];
 }
